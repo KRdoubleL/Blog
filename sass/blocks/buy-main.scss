@@ -1,0 +1,81 @@
+.buy-main__wrapper {
+  padding-top: 70px;
+}
+
+.buy-main__course {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  background-color: $lighter-grey;
+  border: 1px solid $light-grey;
+}
+
+.buy-main__img {
+  align-self: center;
+}
+
+.buy-main__block {
+  display: flex;
+  align-items: center;
+}
+
+.buy-main__img {
+  align-self: center;
+}
+
+.buy-main__description {
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.buy-main__description h3 {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.buy-main__description p {
+  color: $author-text;
+}
+
+.buy-main__price {
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding-right: 27px;
+}
+
+.buy-main__price sup {
+  padding-left: 5px;
+}
+
+@media #{$xs-device} {
+  .buy-main__wrapper {
+    padding: 0;
+  }
+
+  .buy-main__course {
+    display: block;
+    margin: 0
+  }
+
+  .buy-main__img {
+    width: 100%;
+  }
+
+  .buy-main__block {
+    display: block;
+    text-align: center;
+    border: none;
+  }
+
+  .buy-main__description {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .buy-main__price {
+    padding: 0;
+  }
+}

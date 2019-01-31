@@ -1,0 +1,88 @@
+.carousel-main {
+  background-color: $light-grey;
+}
+
+.carousel-main__comments button::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 40px;
+  background-image: url("../img/arrow-prev.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: red;
+}
+
+.carousel-main__comments button.slick-next::before {
+  transform: rotate(180deg);
+}
+
+.carousel-main__comments .slick-prev {
+  left: 15%;
+  z-index: 100000;
+}
+
+.carousel-main__comments .slick-next {
+  right: 15%;
+  z-index: 100000;
+}
+
+.carousel-main__comments .carousel-main__opinion {
+  min-width: 320px;
+  margin-top: 105px;
+  margin-bottom: 115px;
+  margin-left: 15px;
+  margin-right: 55px;
+  background-color: $white;
+}
+
+.carousel-main__comments .carousel-main__text {
+  max-width: 545px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 22px;
+  color: $author-text;
+}
+
+.carousel-main__signature-block {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-main__img {
+  margin-bottom: 40px;
+  border-radius: 50%;
+}
+
+.carousel-main__signature {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-left: 20px;
+}
+
+.carousel-main__author {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.carousel-main__comments .carousel-main__ocupation {
+  font-size: 16px;
+  line-height: 30px;
+  color: $author-text;
+}
+
+.carousel-main__comments .slick-prev {
+  background-image: url("img/arrow-prev.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+@media #{$xs-device} {
+  .carousel-main__comments .carousel-main__text {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

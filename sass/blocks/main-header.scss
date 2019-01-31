@@ -1,0 +1,40 @@
+.main-header {
+  z-index: 1000000;
+}
+
+.main-header__logo svg {
+  position: absolute;
+  left: 10px;
+  top: 35px;
+  z-index: 100000;
+}
+
+.main-header__nav-wrapper .navbar-default {
+  color: $white;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.main-header__nav-header {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+@media #{$xs-device} {
+  .main-header__logo svg {
+    position: fixed;
+  }
+  .main-header .container .main-header__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $white;
+    z-index: 1000;
+  }
+
+  .main-header__nav-wrapper .navbar-default {
+    text-align: right;
+  }
+}

@@ -1,0 +1,113 @@
+.popup-main__show {
+  display: block;
+}
+
+.popup-main {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+
+.popup-main__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  Width: 700px;
+  height: 90vh;
+  padding-top: 20px;
+  margin: auto;
+  background-color: $white;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.popup-main__wrapper .row {
+  background-color: $white;
+  overflow: auto;
+  height: 675px;
+}
+
+.popup-main__wrapper .popup-main__offer,
+.popup-main__wrapper .popup-main__lection,
+.popup-main__form {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.popup-main__wrapper p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.popup-main__offer p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.popup-main__lection-1 p,
+.popup-main__lection-2 p {
+  color: $grey;
+}
+
+.popup-main__lection,
+.popup-main__dates {
+  display: flex;
+  justify-content: center;
+}
+
+.popup-main__lection {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 35px;
+}
+
+.popup-main__lection-1 .popup-main__date p,
+.popup-main__lection-2 .popup-main__date p {
+  padding-right: 17px;
+  padding-left: 15px;
+}
+
+.popup-main__dates {
+  align-items: center;
+}
+
+.popup-main__date p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: $black;
+}
+
+.popup-main__dash {
+  font-weight: bold;
+}
+
+.popup-main__text {
+  font-size: 16px;
+  line-height: 28px;
+  color: $grey;
+}
+
+.popup-main__form .popup-main__input {
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 1px solid $border-clr;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+form .popup-main__field:nth-child(2) {
+  padding-bottom: 10px;
+}

@@ -1,0 +1,91 @@
+.event-nearest {
+  background-color: $light-grey;
+}
+
+.event-nearest__wrapper {
+  padding-top: 40px;
+}
+
+.event-nearest__soon {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-bottom: 55px;
+}
+
+.event-nearest__slider button::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 40px;
+  background-image: url("../img/arrow-prev.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: red;
+}
+
+.event-nearest__slider button.slick-next::before {
+  transform: rotate(180deg);
+}
+
+.event-nearest__slider .slick-prev {
+  left: -5%;
+  z-index: 100000;
+}
+
+.event-nearest__slider .slick-next {
+  right: -2%;
+  z-index: 100000;
+}
+
+.event-nearest__block {
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 30px;
+  margin-bottom: 130px;
+  color: $white;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f00bc+36,29abe2+100 */
+  background: #4f00bc; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #4f00bc 36%, #29abe2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #4f00bc 36%,#29abe2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #4f00bc 36%,#29abe2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f00bc', endColorstr='#29abe2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.event-nearest__name {
+  margin: 0 auto;
+  padding-bottom: 15px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.event-nearest__description {
+  max-width: 520px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.event-nearest__information {
+  padding-bottom: 30px;
+}
+
+.event-nearest__dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.event-nearest__date {
+  width: 50px;
+}
+
+.event-nearest__dash {
+  padding-top: 10px;
+  padding-left: 19px;
+  padding-right: 17px;
+}

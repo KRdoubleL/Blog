@@ -1,0 +1,42 @@
+.navbar-collapse .main-nav {
+  width: 100%;
+  background-color: transparent;
+  color: $white;
+  text-transform: uppercase;
+  z-index: 100000;
+}
+
+.main-header__nav-header {
+  z-index: 100000;
+}
+
+@media #{$sm-device} {
+
+  .main-header__nav-wrapper .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  ul.main-nav {
+    padding-left: 15px;
+    font-size: 12px;
+  }
+}
+
+@media #{$medium-menu} {
+  ul.main-nav {
+    font-size: 9px;
+  }
+}
+
+@media #{$xs-device} {
+  .main-header__nav-wrapper .navbar-default {
+    background-color: $white;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  ul.main-nav {
+    text-align: right;
+  }
+}

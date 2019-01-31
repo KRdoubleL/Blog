@@ -1,0 +1,33 @@
+.form-main {
+  color: $author-text;
+}
+
+.form-main .form-main__field:nth-child(1) {
+  padding-top: 5px;
+}
+
+.form-main__field .form-main__input,
+.form-main__field .form-main__textarea {
+  border: none;
+  border-bottom: 1px solid $border-clr;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: $bckgrnd-black;
+}
+
+.form-main__field .form-main__textarea {
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.form-main__input[placeholder] {
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 28px;
+}
+
+@media #{$xs-device} {
+  .form-main__field:last-of-type {
+    text-align: center;
+  }
+}

@@ -1,0 +1,62 @@
+.proposition-main {
+  font-size: 16px;
+  line-height: 28px;
+  color: $white;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f00bc+36,29abe2+100 */
+  background: #4f00bc; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #4f00bc 36%, #29abe2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #4f00bc 36%,#29abe2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #4f00bc 36%,#29abe2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f00bc', endColorstr='#29abe2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.col-md-4 .proposition-main__title {
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  margin-top: 65px;
+  margin-bottom: 55px;
+}
+
+.col-md-12 .proposition-main__tabs {
+	padding-left: 0px;
+	list-style: none;
+}
+
+.proposition-main__tabs li {
+  background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+.proposition-main__tabs .current {
+  background: #ededed;
+	color: #222;
+}
+
+.proposition-main__tabs a:hover {
+  color: $background-violet;
+}
+
+.proposition-main__content {
+  display: none;
+	padding: 15px;
+}
+
+.proposition-main__content.current {
+  display: inherit;
+}
+
+.proposition-main__text {
+  margin-bottom: 5px;
+}
+
+@media #{$xs-device} {
+  .proposition-main__tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

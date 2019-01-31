@@ -1,0 +1,29 @@
+.slick-dots li.slick-active button::before {
+  content: "";
+  font-size: 0;
+  background-image: url("../img/ellipse-hover.svg");
+}
+
+.slick-dots li. button::before {
+  font-size: 0;
+}
+
+.slick-dots button::before {
+  content: "";
+  display: block;
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-image: url("../img/ellipse.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: red;
+}
+
+.slick-dots .slick-prev {
+  z-index: 100000;
+}
+
+.slick-dots .slick-next {
+  z-index: 100000;
+}

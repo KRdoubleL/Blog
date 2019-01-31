@@ -1,0 +1,28 @@
+.inner-article__wrapper .inner-article__new {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.inner-article__blog {
+  box-shadow: 0px 5px 18px -8px rgba(0,0,0,0.4);
+}
+
+.inner-article__img {
+  padding-bottom: 23px;
+  width: 100%;
+}
+
+.inner-article__heading {
+  font-size: 20px;
+  line-height: 25px;
+  padding-bottom: -2px;
+}
+
+.inner-article__text {
+  font-size: 16px;
+  line-height: 20px;
+  color: $author-text;
+  padding-bottom: 7px;
+}

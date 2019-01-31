@@ -1,0 +1,63 @@
+.course {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Lato", sans-serif;
+  padding-top: 30px;
+  color: $grey;
+}
+
+.course__img img {
+  width: 100%;
+  padding-bottom: 28px;
+}
+
+.course__img--3 {
+  padding-bottom: 30px;
+}
+
+.course__heading,
+.course__description {
+  padding-left: 30px;
+}
+
+.course__heading {
+  padding-bottom: 35px;
+}
+
+.course__heading h1 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-top: 40px;
+  color: $black;
+}
+
+.course__heading span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.course__description--text {
+  padding-bottom: 15px;
+}
+
+.course__quote {
+  font-size: 22px;
+  line-height: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: $light-blue;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-left: none;
+}
+
+.course__quote-text {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.course__quote-text span {
+  text-transform: uppercase;
+}

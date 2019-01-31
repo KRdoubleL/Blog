@@ -1,0 +1,13 @@
+.main-part {
+  margin-top: -100px;
+}
+
+@media #{$xs-device} {
+  .main-part {
+    margin-top: 52px;
+  }
+
+  .main-header__nav-header .in + .main-part {
+    margin-top: 152px;
+  }
+}
